@@ -43,7 +43,6 @@ def get_users():
     serialized_users = user_schema.dump(fetched_users, many=True)  # Serialize all users
     return jsonify(serialized_users) #TODO: fix the return to be done with the response module
     
-
 # Retrieving a single user record by providing the id
 @user_bp.route('/user/<int:user_id>', methods=['GET'])
 def get_user(user_id):

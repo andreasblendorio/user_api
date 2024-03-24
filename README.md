@@ -29,6 +29,30 @@ for further more precise requirements you can refer to the requirements.txt file
 - Update the database configuration in *config.py* with your db credentials.and configuation parameters.
 - Run the flask application.
 
+## Structure
+```
+└── user_api
+    ├── src                          // API core handlers
+    │   ├── config           
+    │   │   └── config.py            // Configuration
+    │   ├── static  
+    │   │   └── openapi.yaml         // Swagger Documentation
+    │   ├── tests
+    │   │   └── test_user_api.py     // Tests 
+    │   ├── utils
+    │   │   ├── HTTP_status_code.py  // Status codes    
+    │   │   └── responses.py         // Common response functions
+    │   ├── __init__.py              // App factory
+    │   ├── auth.py
+    │   ├── models.py                // DB Models
+    │   ├── routes.py                // Endpoint routes
+    │   └── run.py                   // App runnes
+    ├── .flaskenv
+│   ├── .gitignore        
+    ├── README.md
+    └── requirements.txt
+```
+
 ## API Endpoints
 
 ## Request and Response format
@@ -37,7 +61,8 @@ for further more precise requirements you can refer to the requirements.txt file
 
 ## Contributing
 
+Contributions are welcome! Feel free to submit issues or pull requests for any improvements or bug fixes.
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
