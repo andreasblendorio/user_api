@@ -46,9 +46,9 @@ for further more precise requirements you can refer to the requirements.txt file
     │   ├── auth.py
     │   ├── models.py                // DB Models
     │   ├── routes.py                // Endpoint routes
-    │   └── run.py                   // App runnes
+    │   └── run.py                   // App runner
     ├── .flaskenv
-│   ├── .gitignore        
+    ├── .gitignore        
     ├── README.md
     └── requirements.txt
 ```
