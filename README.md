@@ -33,13 +33,13 @@ pip install -r requirements.txt
 
 - Create a MySQL database via MySQL CLI, the one this API refers to is called *user_db*.
 
-```MYSQL
+```mysql
 mysql> CREATE DATABASE user_db;
 ```
 
 the db table in this project will follow this structure:
 
-```MYSQL
+```mysql
 +----------------+
 |      user      |
 +----------------+
