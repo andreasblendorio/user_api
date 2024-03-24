@@ -14,7 +14,7 @@ This draft is a simple RESTful API built using Python Flask and SQLAlchemy to in
 - MySQL rdbms
 - Swagger UI (optional, for documentation)
 
-for further more precise requirements you can refer to the requirements.txt file provided in this folder.
+for further and more precise requirements you can refer to the requirements.txt file provided in this folder.
 
 ## Installation
 
