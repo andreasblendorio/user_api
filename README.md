@@ -10,8 +10,7 @@ This draft is a simple RESTful API built using Python Flask and SQLAlchemy to in
 
 - Python 3.x
 - Flask
-- SQLAlchemy
-- MySQL rdbms
+- MySQL RDBMS
 - Swagger UI (optional, for documentation)
 
 for further and more precise requirements you can refer to the requirements.txt file provided in this folder.
@@ -32,13 +31,43 @@ pip install -r requirements.txt
 
 ### 3. Configure MySQL Database
 
-- Create a MySQL database, the one this API refers to is called *user_db*.
-- Update the database configuration in *config.py* with your db credentials.and configuation parameters.
+- Create a MySQL database via MySQL CLI, the one this API refers to is called *user_db*.
+
+```bash
+mysql> CREATE DATABASE user_db;
+```
+
+the db table in this project will follow this structure:
+
+```mysql
++----------------+
+|      user      |
++----------------+
+| user_id        |
+| first_name     |
+| last_name      |
+| username       |
+| user_password  |
+| email          |
+| telephone      |
+| insertion_date |
+| update_date    |
+| user_status    |
++----------------+
+```
+
+- Update the database configuration in *config.py* with your db credentials and configuation parameters.
 
 ### 4. Run the Flask application
 
 ```bash
 python run.py
+```
+
+or use the integrated vscode terminal, and start the **flask server** from there
+
+```bash
+C:\path\to\your\working_dir> flask run
 ```
 
 ## Structure
@@ -67,6 +96,15 @@ python run.py
 ```
 
 ## API Endpoints
+
+Here are the endpoints exposed by the API to perform CRUD ops on the user table
+
+- `GET /users`: Get all users
+- `GET /users/{id}`: Get user by ID
+- `POST /user`: Create a new user
+- `PUT /users/{id}`: Update user by ID
+- `DELETE /users/{id}/`: Delete user by ID
+- `PUT /users/{id}/{user_status}`: Update user by ID
 
 ## Request and Response format
 
