@@ -8,7 +8,6 @@ This draft is a simple RESTful API built using Python Flask and SQLAlchemy to in
 
 ## Requirements
 
-- Requirements
 - Python 3.x
 - Flask
 - SQLAlchemy
@@ -73,7 +72,7 @@ python run.py
 
 ## Swagger Documentation
 
-- Swagger documentation (will be) available at '/swagger' endpoint  
+- Swagger documentation (will be) available at `/swagger` endpoint  
 - Access the Swagger UI via vscode OpenAPI extension to view API documentation and test endpoints interactively.
 
 ## ToDos
