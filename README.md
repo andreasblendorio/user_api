@@ -21,16 +21,30 @@ for further more precise requirements you can refer to the requirements.txt file
 
 ### 1. Clone the repo
 
+```bash
+git clone https://github.com/andreasblendorio/user_api.git
+```
+
 ### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
 
 ### 3. Configure MySQL Database
 
 - Create a MySQL database, the one this API refers to is called *user_db*.
 - Update the database configuration in *config.py* with your db credentials.and configuation parameters.
-- Run the flask application.
+
+### 4. Run the Flask application
+
+```bash
+python run.py
+```
 
 ## Structure
-```
+
+```text
 └── user_api
     ├── src                          // API core handlers
     │   ├── config           
@@ -58,6 +72,11 @@ for further more precise requirements you can refer to the requirements.txt file
 ## Request and Response format
 
 ## Swagger Documentation
+
+- Swagger documentation (will be) available at '/swagger' endpoint  
+- Access the Swagger UI via vscode OpenAPI extension to view API documentation and test endpoints interactively.
+
+## ToDos
 
 ## Contributing
 
