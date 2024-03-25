@@ -115,6 +115,22 @@ Here are the endpoints exposed by the API to perform CRUD ops on the user table
 When interacting with the [`user_api`](/user_api/) API, all data is exchanged in JSON format adhering to the standards outlined in the [Google JSON Style Guide](https://google.github.io/styleguide/jsoncstyleguide.xml).\
  The following are the expected formats for requests and responses when performing CRUD operations on a user:
 
+```json
+{
+    "user_id": 1,
+    "first_name": "John",
+    "last_name": "Doe",
+    "username": "johndoe",
+    "user_password": "ThisIsAStrongPassword123!password123",
+    "email": "john.doe@example.com",
+    "telephone": "1234567890",
+    "insertion_date": "2024-03-21T12:00:00", 
+    "update_date": "2024-03-21T12:00:00", 
+    "user_status": "true" 
+}
+
+```
+
 ## Swagger Documentation
 
 - Swagger documentation (will be) available at `/swagger` endpoint  
