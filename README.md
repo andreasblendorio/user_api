@@ -65,7 +65,7 @@ the db table in this project will follow this structure:
 - Update the database configuration in [`config.py`](/user_api/src/config/config.py) with your db credentials and configuation parameters.
 
 > [!TIP]
-> It is a good practice to have settings related to configurations saved in proper environment variables and manage these using .env or .flaskenv files.
+> It is a good practice to have settings related to configurations saved in proper environment variables and manage these using `.env` or `.flaskenv` files.
 
 ### 4. Run the Flask application
 
