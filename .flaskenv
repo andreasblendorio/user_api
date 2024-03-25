@@ -1,5 +1,0 @@
-FLASK_APP=src
-FLASK_ENV=development
-FLASK_DEBUG=True
-SQLALCHEMY_DATABASE_URI=mysql://root:password123@localhost/user_db
-SQLALCHEMY_TRACK_MODIFICATIONS=False 
