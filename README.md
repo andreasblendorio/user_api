@@ -2,6 +2,10 @@
 
 A simple RESTful API with Python, Flask & MySQL.
 
+
+> [!IMPORTANT]
+> This development project is mostly for learning purpose, indeed code readability might not be at its finest, so get rid of the multiline comments.
+
 ## Overview :mag_right:
 
 This draft is a simple RESTful API built using Python Flask and SQLAlchemy to interact with a MySQL database. As such, the API provides basic CRUD (Create, Read, Update, Delete) operations to manage user data stored in the database.
@@ -16,7 +20,7 @@ This draft is a simple RESTful API built using Python Flask and SQLAlchemy to in
 - MySQL RDBMS
 - Swagger UI (optional, for documentation)
 
-for further and more precise requirements you can refer to the requirements.txt file provided in this folder.
+for further and more precise requirements you can refer to the [`requirements.txt`](/user_api/requirements.txt) file provided in this folder.
 
 ## Installation :inbox_tray:
 
@@ -59,7 +63,7 @@ the db table in this project will follow this structure:
 +----------------+
 ```
 
-- Update the database configuration in *config.py* with your db credentials and configuation parameters.
+- Update the database configuration in [`config.py`](/user_api/src/config/config.py) with your db credentials and configuation parameters.
 
 ### 4. Run the Flask application
 
