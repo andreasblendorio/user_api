@@ -22,13 +22,13 @@ for further and more precise requirements you can refer to the requirements.txt 
 
 ### 1. Clone the repo
 
-```bash
+```git
 git clone https://github.com/andreasblendorio/user_api.git
 ```
 
 ### 2. Install dependencies
 
-```bash
+```python
 pip install -r requirements.txt
 ```
 
@@ -63,14 +63,14 @@ the db table in this project will follow this structure:
 
 ### 4. Run the Flask application
 
-```bash
+```pyhton
 python run.py
 ```
 
 or use the integrated vscode terminal, and start the **flask server** from there
 
-```bash
-C:\path\to\your\working_dir> flask run
+```cmd
+C:\path\to\your\workingdir> flask run
 ```
 
 ## Structure
