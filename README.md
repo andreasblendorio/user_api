@@ -128,7 +128,8 @@ Moving forward the codebase will be enhanced with more robust test scripts and i
 
 ## Contributing
 
-Contributions are welcome! Feel free to submit issues or pull requests for any improvements or bug fixes.
+Contributions & advices are welcome!\
+Feel free to submit issues or pull requests for any improvements or bug fixes.
 
 ## License
 
