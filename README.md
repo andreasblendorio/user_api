@@ -111,7 +111,7 @@ Here are the endpoints exposed by the API to perform CRUD ops on the user table
 
 ## Request and Response format
 
-When interacting with the REST user_api API, all data is exchanged in JSON format adhering to the standards outlined in the Google JSON Style Guide.\
+When interacting with the [`user_api`](/user_api/) API, all data is exchanged in JSON format adhering to the standards outlined in the [Google JSON Style Guide](https://google.github.io/styleguide/jsoncstyleguide.xml).\
  The following are the expected formats for requests and responses for CRUD operations on a user:
 
 ## Swagger Documentation
@@ -123,7 +123,7 @@ When interacting with the REST user_api API, all data is exchanged in JSON forma
 
 Moving forward the codebase will be enhanced with more robust test scripts and improvements in security measures. So what will be addressed in the future is:
 
-- **Testing Suite**: Strengthening our testing suite [`test_user_api.py`](user_api/src/tests/test_user_api.py) is paramount to ensuring the reliability and stability of our application. This involves not only increasing test coverage but also refining existing tests and introducing new ones to capture edge cases and potential vulnerabilities.
+- **Testing Suite**: Strengthening our testing suite [`test_user_api.py`](src/tests/test_user_api.py) is paramount to ensuring the reliability and stability of our application. This involves not only increasing test coverage but also refining existing tests and introducing new ones to capture edge cases and potential vulnerabilities.
 - **Vulnerability Management**: Implementing robust security measures to identifying and addressing vulnerabilities by establish protocols for identifying, prioritizing, and remedying security issues promptly. This includes handling critical vulnerabilities related to SQL injection, XSS, and other security concerns with utmost urgency.
 
 ## Contributing
