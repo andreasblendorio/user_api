@@ -1,15 +1,15 @@
 # *user_api*
 
-A simple RESTful API with Python, Flask & SQLAlchemy.
+A simple RESTful API with Python, Flask & MySQL.
 
-## Overview
+## Overview :mag_right:
 
 This draft is a simple RESTful API built using Python Flask and SQLAlchemy to interact with a MySQL database. As such, the API provides basic CRUD (Create, Read, Update, Delete) operations to manage user data stored in the database.
 
 > [!NOTE]
 > It also includes Swagger documentation using OpenAPI to facilitate understanding and testing of the API endpoints.
 
-## Requirements
+## Requirements :pushpin:
 
 - Python 3.x
 - Flask
@@ -18,7 +18,7 @@ This draft is a simple RESTful API built using Python Flask and SQLAlchemy to in
 
 for further and more precise requirements you can refer to the requirements.txt file provided in this folder.
 
-## Installation
+## Installation :inbox_tray:
 
 ### 1. Clone the repo
 
@@ -73,7 +73,9 @@ or use the integrated vscode terminal, and start the **flask server** from there
 C:\path\to\your\workingdir> flask run
 ```
 
-## Structure
+## Structure :open_file_folder:
+
+Project is structured as follows:
 
 ```text
 └── user_api
@@ -99,7 +101,7 @@ C:\path\to\your\workingdir> flask run
     └── requirements.txt
 ```
 
-## API Endpoints
+## API Endpoints :dart:
 
 Here are the endpoints exposed by the API to perform CRUD ops on the user table
 
@@ -110,10 +112,10 @@ Here are the endpoints exposed by the API to perform CRUD ops on the user table
 - `DELETE /users/{id}/`: Delete user by ID
 - `PUT /users/{id}/{user_status}`: Update user by ID
 
-## Request and Response format
+## Request and Response format :handshake:
 
 When interacting with the [`user_api`](/user_api/) API, all data is exchanged in JSON format adhering to the standards outlined in the [Google JSON Style Guide](https://google.github.io/styleguide/jsoncstyleguide.xml).\
- The following are the expected formats for requests and responses when performing CRUD operations on a user:
+ The following is the expected format for requests and responses when performing CRUD operations on a user:
 
 ```json
 {
@@ -131,12 +133,12 @@ When interacting with the [`user_api`](/user_api/) API, all data is exchanged in
 
 ```
 
-## Swagger Documentation
+## Swagger Documentation :page_facing_up:
 
 - Swagger documentation (will be) available at `/swagger` endpoint  
-- Access the Swagger UI via vscode OpenAPI extension to view API documentation and test endpoints interactively.
+- Swagger UI can still be accessed via vscode's OpenAPI extension to view API documentation and test endpoints interactively.
 
-## ToDos
+## ToDos :paperclip:
 
 Moving forward the codebase will be enhanced with more robust test scripts and improvements in security measures. So what will be addressed in the future is:
 
