@@ -4,7 +4,10 @@ A simple RESTful API with Python, Flask & SQLAlchemy.
 
 ## Overview
 
-This draft is a simple RESTful API built using Python Flask and SQLAlchemy to interact with a MySQL database. As such, the API provides basic CRUD (Create, Read, Update, Delete) operations to manage user data stored in the database. It also includes Swagger documentation using OpenAPI to facilitate understanding and testing of the API endpoints.
+This draft is a simple RESTful API built using Python Flask and SQLAlchemy to interact with a MySQL database. As such, the API provides basic CRUD (Create, Read, Update, Delete) operations to manage user data stored in the database.
+
+> [!NOTE]
+> It also includes Swagger documentation using OpenAPI to facilitate understanding and testing of the API endpoints.
 
 ## Requirements
 
@@ -107,6 +110,9 @@ Here are the endpoints exposed by the API to perform CRUD ops on the user table
 - `PUT /users/{id}/{user_status}`: Update user by ID
 
 ## Request and Response format
+
+When interacting with the REST user_api API, all data is exchanged in JSON format adhering to the standards outlined in the Google JSON Style Guide.\
+ The following are the expected formats for requests and responses for CRUD operations on a user:
 
 ## Swagger Documentation
 
