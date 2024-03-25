@@ -75,7 +75,7 @@ C:\path\to\your\workingdir> flask run
 
 ## Structure :open_file_folder:
 
-Project is structured as follows:
+Project files are structured as follows:
 
 ```text
 └── user_api
