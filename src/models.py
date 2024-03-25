@@ -1,13 +1,11 @@
 from src import db
 from datetime import datetime
 from marshmallow import Schema, fields, ValidationError
-
 '''
 For further validations of the fields the package IntegrityErros
 may be suitable 
 #from sqlalchemy.exc import IntegrityError
 '''
-
 # User class
 class User(db.Model):
     user_id = db.Column(db.Integer, primary_key=True) # maybe autoincrement = True
@@ -38,7 +36,7 @@ class User(db.Model):
         self.update_date = update_date
         self.user_status = user_status
     
-    # Shortcurs for db ops
+    # Shortcur functions for db ops
     def create(self):
         db.session.add(self)
         db.session.commit()
