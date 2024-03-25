@@ -2,7 +2,6 @@
 
 A simple RESTful API with Python, Flask & MySQL.
 
-
 > [!IMPORTANT]
 > This development project is mostly for learning purpose, indeed code readability might not be at its finest, so get rid of the multiline comments.
 
