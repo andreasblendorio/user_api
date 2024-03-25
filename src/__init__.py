@@ -86,7 +86,7 @@ def create_app(test_config=None):
         from src.models import User
         db.create_all()
                            
-        # Registering the blueprints for the routes endpoints and eventually the auth 
+        # Registering the blueprints for the routes endpoints (and eventually the auth) 
         from src.routes import user_bp
 
         app.register_blueprint(user_bp)

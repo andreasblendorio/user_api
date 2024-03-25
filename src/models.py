@@ -20,7 +20,6 @@ class User(db.Model):
     insertion_date = db.Column(db.DateTime, default=datetime.now)
     update_date = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)
     user_status = db.Column(db.String(20), default=True)
-
     '''
     Apparently there's no need to init this class 'cause SQLAlchemy
     automatically defines an __init__ method
@@ -50,7 +49,8 @@ class User(db.Model):
         db.session.commit
         return self
  
-    # User class method .serialize NOTE: by using Marshmallow schemas, this fn may become redundant, BTW leaving it here just in case
+    # User class method .serialize 
+    # NOTE: by using Marshmallow schemas, this fn may become redundant, BTW leaving it here just in case
     # converting an instance of a User obj in a pyhton dic containing the values of the attributes of the user 
     def serialize(self):
         return {

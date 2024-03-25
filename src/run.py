@@ -3,7 +3,7 @@ from src import create_app
 # Init
 app = create_app()
 
-# driver fn
+# Driver fn
 if __name__ == "__main__":
     app.run()
 
