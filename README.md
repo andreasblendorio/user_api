@@ -112,7 +112,7 @@ Here are the endpoints exposed by the API to perform CRUD ops on the user table
 ## Request and Response format
 
 When interacting with the [`user_api`](/user_api/) API, all data is exchanged in JSON format adhering to the standards outlined in the [Google JSON Style Guide](https://google.github.io/styleguide/jsoncstyleguide.xml).\
- The following are the expected formats for requests and responses for CRUD operations on a user:
+ The following are the expected formats for requests and responses when performing CRUD operations on a user:
 
 ## Swagger Documentation
 
