@@ -66,6 +66,21 @@ the db table in this project will follow this structure:
 
 > [!TIP]
 > It is a good practice to have settings related to configurations saved in proper environment variables and manage these using `.env` or `.flaskenv` files.
+>
+> This project jas been developed using both `.env` and `.flaskenv` files, but oyu can't check them because they are gitignored.
+> So if you're planning to `git-clone` this repo make sure to create your own personal `.env` and `.flaskenv` files settled up like this:
+> 
+> ```text
+> `.env`
+SECRET_KEY=dev
+> ```
+> 
+> `.flaskenv`
+FLASK_APP=src
+FLASK_ENV=development
+FLASK_DEBUG=True
+SQLALCHEMY_DATABASE_URI=mysql://root:kernel23@localhost/user_db  ###CHANGE PERSONAL INFO BEFORE UPLOADING ON GITHUB
+SQLALCHEMY_TRACK_MODIFICATIONS=False 
 
 ### 4. Run the Flask application
 
