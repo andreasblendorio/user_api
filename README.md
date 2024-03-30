@@ -87,15 +87,19 @@ SQLALCHEMY_TRACK_MODIFICATIONS=False
 
 > [!IMPORTANT]
 > ```text
-> .venv
-> .env
-> .flaskenv
+> ├── .venv
+> ├── .env
+> ├── .flaskenv
+> 
 > togheter with the other files:
-> (.gitignore)
-> (README.md)
-> (requirements.txt)
+> 
+> ├── (.gitignore)
+> ├── (README.md)
+> ├── (requirements.txt)
+>
+> **MUST** be on the same level of [`/src`](/user_api/src) otherwise we will encounter problems in the compilation phase.
 ```
-> MUST be on the same level of /src otherwise we will encounter problems
+
 
 
 ### 4. Run the Flask application
