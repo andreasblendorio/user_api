@@ -70,6 +70,7 @@ the db table in this project will follow this structure:
 > This project jas been developed using both `.env` and `.flaskenv` files, but you can't check them because they are gitignore(d).
 
 So if you're planning to `git-clone` this repo make sure to create your own personal `.env` and `.flaskenv` files settled up like this:
+
 ```text
 # .env
 SECRET_KEY=your_secret_key
@@ -83,6 +84,19 @@ FLASK_DEBUG=True
 SQLALCHEMY_DATABASE_URI=mysql://root:password@host/your_db_name  
 SQLALCHEMY_TRACK_MODIFICATIONS=False 
 ```
+
+> [!IMPORTANT]
+> ```text
+> .venv
+.env
+.flaskenv
+togheter with the other files:
+(.gitignore)
+(README.md)
+(requirements.txt)
+```
+> MUST be on the same level of /src otherwise we will encounter problems
+
 
 ### 4. Run the Flask application
 
