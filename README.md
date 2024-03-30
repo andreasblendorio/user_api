@@ -88,12 +88,12 @@ SQLALCHEMY_TRACK_MODIFICATIONS=False
 > [!IMPORTANT]
 > ```text
 > .venv
-.env
-.flaskenv
-togheter with the other files:
-(.gitignore)
-(README.md)
-(requirements.txt)
+> .env
+> .flaskenv
+> togheter with the other files:
+> (.gitignore)
+> (README.md)
+> (requirements.txt)
 ```
 > MUST be on the same level of /src otherwise we will encounter problems
 
