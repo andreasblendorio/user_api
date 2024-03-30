@@ -67,16 +67,16 @@ the db table in this project will follow this structure:
 > [!TIP]
 > It is a good practice to have settings related to configurations saved in proper environment variables and manage these using `.env` or `.flaskenv` files.
 >
-> This project jas been developed using both `.env` and `.flaskenv` files, but oyu can't check them because they are gitignored.
-> So if you're planning to `git-clone` this repo make sure to create your own personal `.env` and `.flaskenv` files settled up like this:
-> 
-> ```text
-> # .env
+> This project jas been developed using both `.env` and `.flaskenv` files, but you can't check them because they are gitignore(d).
+
+So if you're planning to `git-clone` this repo make sure to create your own personal `.env` and `.flaskenv` files settled up like this:
+```text
+# .env
 SECRET_KEY=your_secret_key
-> ```
->
-> ```text
-> # .flaskenv
+```
+
+```text
+# .flaskenv
 FLASK_APP=name_of_the_app_you_want_to_serve
 FLASK_ENV=your_env
 FLASK_DEBUG=True
