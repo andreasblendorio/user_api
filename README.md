@@ -71,16 +71,18 @@ the db table in this project will follow this structure:
 > So if you're planning to `git-clone` this repo make sure to create your own personal `.env` and `.flaskenv` files settled up like this:
 > 
 > ```text
-> `.env`
-SECRET_KEY=dev
+> # .env
+SECRET_KEY=your_secret_key
 > ```
-> 
-> `.flaskenv`
-FLASK_APP=src
-FLASK_ENV=development
+>
+> ```text
+> # .flaskenv
+FLASK_APP=name_of_the_app_you_want_to_serve
+FLASK_ENV=your_env
 FLASK_DEBUG=True
-SQLALCHEMY_DATABASE_URI=mysql://root:kernel23@localhost/user_db  ###CHANGE PERSONAL INFO BEFORE UPLOADING ON GITHUB
+SQLALCHEMY_DATABASE_URI=mysql://root:password@host/your_db_name  
 SQLALCHEMY_TRACK_MODIFICATIONS=False 
+```
 
 ### 4. Run the Flask application
 
