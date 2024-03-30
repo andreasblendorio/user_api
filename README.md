@@ -86,6 +86,7 @@ SQLALCHEMY_TRACK_MODIFICATIONS=False
 ```
 
 > [!IMPORTANT]
+> The following files:
 > ```text
 > ├── .venv
 > ├── .env
@@ -97,7 +98,7 @@ SQLALCHEMY_TRACK_MODIFICATIONS=False
 > ├── (README.md)
 > ├── (requirements.txt)
 > ```
-**MUST** be on the same level of [`/src`](/user_api/src) otherwise we will encounter problems in the compilation phase.
+> **MUST** be on the same level of [`/src`](/user_api/src) otherwise we will encounter problems in the compilation phase.
 
 
 
