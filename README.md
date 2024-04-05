@@ -92,7 +92,7 @@ SQLALCHEMY_TRACK_MODIFICATIONS=False
 > ├── .env
 > ├── .flaskenv
 > 
-> togheter with the other files:
+> togheter with other files:
 > 
 > ├── (.gitignore)
 > ├── (README.md)
